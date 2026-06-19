@@ -1,0 +1,22 @@
+# Dependencies for the is26-fp-rate environment. CPU-only.
+#
+# Install via:  bash scripts/0_setup_env.sh
+# Or manually:  pip install -r requirements.txt
+
+# --- core data handling -------------------------------------------------------
+numpy>=1.24
+pandas>=2.0
+scipy>=1.11
+
+# --- modelling ---------------------------------------------------------------
+statsmodels>=0.14
+patsy>=0.5
+
+# --- plotting ----------------------------------------------------------------
+matplotlib>=3.7
+seaborn>=0.13
+pillow>=10.0
+
+# --- downloads ---------------------------------------------------------------
+requests>=2.31
+tqdm>=4.66
