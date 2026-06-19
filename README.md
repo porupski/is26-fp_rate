@@ -1,5 +1,7 @@
 # FP rate modelling — Slavic parliaments (InterSpeech 2026)
 
+[![DOI](https://zenodo.org/badge/1274287623.svg)](https://doi.org/10.5281/zenodo.20766877)
+
 Code accompanying:
 
 > Porupski, I., Dropuljić, B., Ljubešić, N. (2026). *Umm… With Transformers? Insights from Filled Pause Use across Four Slavic Parliaments.* InterSpeech 2026.
@@ -97,3 +99,25 @@ where `x*` is either the raw covariate (baseline) or the Mundlak pair `(x̄_i, x
 ## Filters (step 4)
 
 Speakers with `role == "Regular"`, utterances ≥ 10 words and ≥ 3 s audio, ≥ 10 utterances per speaker. After filtering: 1,001,787 utterances from 1,561 speakers (3,889 h).
+
+## Citation
+
+If you use this code, please cite both the paper and the software:
+
+```bibtex
+@inproceedings{porupski2026umm,
+  title     = {Umm... With Transformers? Insights from Filled Pause Use across Four Slavic Parliaments},
+  author    = {Porupski, Ivan and Dropulji\'{c}, Branimir and Ljube\v{s}i\'{c}, Nikola},
+  booktitle = {Proc. Interspeech 2026},
+  year      = {2026}
+}
+
+@software{porupski2026is26fprate,
+  author    = {Porupski, Ivan and Dropulji\'{c}, Branimir and Ljube\v{s}i\'{c}, Nikola},
+  title     = {is26-fp\_rate: Filled-pause rate modelling pipeline (InterSpeech 2026)},
+  year      = {2026},
+  version   = {v1.0.0},
+  doi       = {10.5281/zenodo.20766877},
+  url       = {https://doi.org/10.5281/zenodo.20766877}
+}
+```
