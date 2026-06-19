@@ -1,7 +1,8 @@
 """
 utils_results.py
 ================
-Helpers for collecting model results (used by 5_collect_results_and_plot.py).
+Helpers for collecting and plotting model results
+(used by 5_collect_results_and_plot.py and 6_plot_paper_figure.py).
 
 Contains:
   - Label parsing (track / model_type decomposition)
